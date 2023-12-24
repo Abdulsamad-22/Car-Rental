@@ -1,0 +1,108 @@
+body{
+	font-family: Abel,sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 510px;
+}
+
+div img{
+	height: 24px;
+	margin-bottom: 16px;
+}
+
+.first-card,
+.second-card,
+.third-card{
+	background-color: #DB950E;
+	width: 170px;
+	height: 300px;
+	padding: 20px;
+	position: relative;
+	border-radius: 8px 0 0 8px;
+}
+
+.second-card{
+	border-radius: 0;
+	background-color: #2B8887;
+}
+
+.third-card{
+	border-radius: 0 8px 8px 0;
+	background-color: #086362;
+}
+
+.car-title{
+	font-size: 1.5rem;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.car-description{
+	font-size: 0.75rem;
+	color: #CAD0D0;
+	line-height: 1.25rem;
+	letter-spacing: 0.15px;
+	width: 160px;
+}
+
+.button-first,
+.button-second,
+.button-third{
+	padding: 10px 16px;
+	border: none;
+	border-radius: 16px;
+	background-color: white;
+	color: #EA8F08;
+	font-size: 0.75rem;
+	font-weight: 600;
+	position: absolute;
+	bottom: 35px;
+	cursor: pointer;
+	transition: border-color 0.15s, color 0.15s, border-width 0.15s, border 0.15s;
+}
+
+.button-first:active{
+	background-color: #EA8F08;
+	border-width: 1px;
+	border-color: white;
+	border: solid;
+	color: white;
+}
+
+.button-second{
+	color: #2B8887;
+}
+
+.button-second:active{
+	background-color: #2B8887;
+	border-width: 0.1px;
+	border-color: white;
+	border: solid;
+	color: white;
+}
+
+
+.button-third{
+	color: #086362;
+}
+
+.button-third:active{
+	background-color: #086362;
+	border-width: 1px;
+	border-color: white;
+	border: solid;
+	color: white;
+}
